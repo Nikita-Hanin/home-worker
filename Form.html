@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>By my Form</title>
+</head>
+<body></body>
+<header>
+  АНКЕТА УЧЕНИКА
+</header>
+<form action="#">
+    <p><i>Пожалуйста, заполните форму.Для теста на ваши знания английкского. Обязательные поля помечены </i><em>*</em></p>
+    <fieldset>
+      <legend>Контактная информация</legend>
+        <label for="name">Имя <em>*</em></label>
+        <input id="name"><br>
+        <label for="telephone">Телефон</label>
+        <input id="telephone"><br>
+        <label for="email">Email <em>*</em></label>
+        <input id="email"><br>
+    </fieldset>
+    <fieldset>
+      <legend>Персональная информация</legend>
+        <label for="age">Возраст<em>*</em></label>
+        <input id="age"><br>
+        <label for="gender">Пол</label>
+        <select id="gender">
+          <option value="female">Женщина</option>
+          <option value="male">Мужчина</option>
+        </select><br>
+        <label for="comments">Укажите для чего изучаете Английский</label>
+        <textarea id="comments"></textarea>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Выберите свой уровень английкского</legend>
+      <label for="Beginner"><input id="Beginner-id" type="checkbox"> A1 — Уровень выживания (Beginner)</label>
+      <label for="Elementary"><input id="Elementary-id" type="checkbox">A1 — Уровень выживания (Elementary)</label>
+      <label for="Pre-Intermediate"><input id="Pre-Intermediate-id" type="checkbox"> предпороговый уровень (Pre-Intermediate)</label>
+      <label for="Intermediate"><input id="Intermediate-id" type="checkbox"> B1 — Пороговый уровень (Intermediate)</label>
+      <label for="Upper-Intermediate"><input id="Upper-Intermediate-id" type="checkbox"> B2 — Пороговый продвинутый уровень (Upper-Intermediate)</label>
+      <label for="Advanced"><input id="Advanced-id" type="checkbox"> C1 — Уровень профессионального владения (Advanced)</label>
+      <label for="Proficiency"><input id="Proficiency-id" type="checkbox"> Уровень владения в совершенстве (Proficiency)</label>
+    </fieldset>
+  <input type="submit" value="Отправить информацию">
+  </form>
+  <footer>
+    Directed by Nikita Hanin
+  </footer>  
+  </body>
+  </html>
