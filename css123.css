@@ -1,0 +1,110 @@
+body {
+    background: rgb(175, 235, 10);
+}
+.avatar {
+    width: 150px;
+    line-height: 200px;
+    border-radius: 60%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.text{
+ font-family:Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, sans-serif
+
+}
+.inline {
+    margin: 50px;
+    border: 3px solid rgb(202, 12, 44);
+    padding: 0 10px;
+    text-align: center
+    
+}
+p{ 
+    padding:  90px;
+}
+.letter { 
+    color: red; /* Красный цвет символов */ 
+    font-size: 200%; /* Размер шрифта в процентах */ 
+    font-family: serif; /* Шрифт с засечками */ 
+    position: relative; /* Относительное позиционирование */ 
+    top: 5px; /* Сдвиг сверху */ 
+}
+
+.layer1 {
+    background-color: rgb(21, 255, 0); /* Цвет фона слоя */
+    padding: 50px; /* Поля вокруг текста */
+    height:200px;
+    float: left; /* Обтекание по правому краю */
+    width: 500px; /* Ширина слоя */
+    margin: 4px 10px 2px 0px;
+ }
+.leftfoto{
+    margin: 4px 10px 2px 0px;
+    width: 200px;
+    height: 100px;
+    padding-right: 7cm;
+    
+    
+    
+
+}
+
+.layer2 {
+    background-color:rgb(255, 0, 149); /* Цвет фона слоя */
+    padding: 50px; /* Поля вокруг текста */
+    height:200px;
+    width: 500px; /* Ширина слоя */
+    float: right; /* Обтекание по левому краю */
+    margin: 4px 10px 2px 0px;
+}
+.leftfoto2{
+    float: right;
+    margin: 4px 10px 2px 0px;
+    width: 200px;
+    height: 100px;
+    padding-left: 7cm;
+
+}
+
+.container{
+    clear:both;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.text-box{
+    padding: 45px;
+    font-size: 14px;
+    margin: 26px;
+    background-color: rgb(255, 7, 61);
+    width: 150px;
+    border-radius: 50%;
+}
+.outline2{
+    
+    text-align: left;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 25px;
+    margin-left: 575px;
+    vertical-align: 1px
+    
+}
+
+/*.textcols {
+	white-spae: nowrap;
+}
+.divleft_block {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	background: #082ed8;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
+}3 */
+my
+    
